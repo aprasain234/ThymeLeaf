@@ -46,8 +46,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 	<build>
+		<finalName>spring-boot-aws-exe</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
